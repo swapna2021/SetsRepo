@@ -78,7 +78,7 @@ public class DemoOnSets {
 		System.out.println(ts.headSet(57));
 		System.out.println(ts.tailSet(57));
 		System.out.println(ts);
-		System.out.println("swapna");
+		
 		
 		
 	}
