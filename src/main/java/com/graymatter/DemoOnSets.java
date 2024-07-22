@@ -53,8 +53,6 @@ public class DemoOnSets {
 		Iterator<Integer> itr1=ts.descendingIterator();
 		while(itr1.hasNext())
 			System.out.println(itr1.next());
-		
-		
 		Employee e1=new Employee("Swapna",123,50000,"Hyderabad");
 		Employee e7=new Employee("Swapna",123,70000,"Hyderabad");
 		Employee e8=new Employee("Swapna",123,90000,"Hyderabad");
@@ -79,8 +77,7 @@ public class DemoOnSets {
 		ts.add(89);
 		System.out.println(ts.headSet(57));
 		System.out.println(ts.tailSet(57));
-		
-		
+		System.out.println(ts);
 		
 		
 	}
